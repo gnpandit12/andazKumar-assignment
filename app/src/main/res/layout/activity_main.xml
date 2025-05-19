@@ -189,7 +189,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp">
+                android:layout_marginBottom="10dp">
 
                 <ImageView
                     android:id="@+id/credit_score_image_view"
@@ -207,7 +207,7 @@
                     android:layout_centerVertical="true"
                     android:fontFamily="sans-serif"
                     android:layout_toEndOf="@+id/credit_score_image_view"
-                    android:textColor="#7e7e7e"
+                    android:textColor="#aaaaaa"
                     android:text="credit score" />
 
 
@@ -246,10 +246,16 @@
 
             </RelativeLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#292929"/>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp">
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
 
                 <ImageView
                     android:id="@+id/lifetime_cashback_image_view"
@@ -267,7 +273,7 @@
                     android:layout_centerVertical="true"
                     android:fontFamily="sans-serif"
                     android:layout_toEndOf="@+id/lifetime_cashback_image_view"
-                    android:textColor="#7e7e7e"
+                    android:textColor="#aaaaaa"
                     android:text="lifetime_cashback" />
 
                 <TextView
@@ -291,10 +297,16 @@
 
             </RelativeLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#292929"/>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp">
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
 
                 <ImageView
                     android:id="@+id/bank_balance_image_view"
@@ -312,7 +324,7 @@
                     android:layout_centerVertical="true"
                     android:fontFamily="sans-serif"
                     android:layout_toEndOf="@+id/bank_balance_image_view"
-                    android:textColor="#7e7e7e"
+                    android:textColor="#aaaaaa"
                     android:text="bank_balance" />
 
                 <TextView
